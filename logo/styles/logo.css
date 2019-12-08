@@ -1,0 +1,41 @@
+.logo_size--full {
+  width: 100%;
+}
+
+.logo_size--medium {
+  height: 80px;
+  width: 80px;
+}
+
+.logo_size--small {
+  height: 16px;
+  width: 16px;
+}
+
+.logo_bg--blue {
+  background-color: var(--color1);
+}
+
+.logo_bg--black {
+  background-color: var(--color2);
+}
+
+.logo_bg--white {
+  background-color: var(--color3);
+}
+
+.logo_color--invert {
+  filter: invert(1);
+}
+
+.logo_color--blue {
+  fill: var(--color1);
+}
+
+.logo_color--black {
+  fill: var(--color2);
+}
+
+.logo_color--white {
+  fill: var(--color3);
+}
