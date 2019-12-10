@@ -2,12 +2,24 @@
   width: 100%;
 }
 
-.logo_size--medium {
+.logo_size--xxl {
+  width: 220px;
+}
+
+.logo_size--xl {
+  width: 200px;
+}
+
+.logo_size--l {
+  width: 120px;
+}
+
+.logo_size--m {
   height: 80px;
   width: 80px;
 }
 
-.logo_size--small {
+.logo_size--s {
   height: 16px;
   width: 16px;
 }
