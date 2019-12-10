@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Электро Ресурс</title>
+  </head>
+  <style>
+    body {
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      font-size: 50pt;
+      text-align: center;
+      padding: 50px;
+      font-weight: bold;
+      color: #2874a6;
+    }
+
+    #countdown {
+      width: 100%;
+    }
+  </style>
+  <body>
+    <span>Осталось</span>
+    <div id="countdown"></div>
+  </body>
+  <script>
+    const el = document.getElementById("countdown");
+
+    const oneDay = 86400;
+    const oneHour = 3600;
+    const oneMinute = 60;
+
+    const NY = new Date(2020, 0).getTime();
+
+    function getTime(nextTime) {
+      let t = Math.abs(((nextTime - Date.now()) / 1000).toFixed(0));
+      let s = (((t % oneDay) % oneHour) % oneMinute) / 1;
+      let m = ~~(((t % oneDay) % oneHour) / oneMinute);
+      let h = ~~((t % oneDay) / oneHour);
+      let d = ~~(t / oneDay);
+      return `${d} ${h}:${m}:${s}`;
+    }
+    el.innerText = getTime(NY);
+
+    setInterval(() => {
+      el.innerText = getTime(NY);
+    }, 1000);
+  </script>
+</html>
