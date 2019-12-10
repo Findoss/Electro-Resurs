@@ -10,9 +10,9 @@
     body {
       font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
         "Lucida Sans", Arial, sans-serif;
-      font-size: 50pt;
+      font-size: 6vw;
       text-align: center;
-      padding: 50px;
+
       font-weight: bold;
       color: #2874a6;
     }
@@ -22,7 +22,12 @@
     }
   </style>
   <body>
-    <span>Осталось</span>
+    <img src="./logo/svg/logo.svg" alt="logo" />
+    <span>
+      появится в сети через
+    </span>
+    <br />
+    <br />
     <div id="countdown"></div>
   </body>
   <script>
@@ -40,7 +45,7 @@
       let m = ~~(((t % oneDay) % oneHour) / oneMinute);
       let h = ~~((t % oneDay) / oneHour);
       let d = ~~(t / oneDay);
-      return `${d} ${h}:${m}:${s}`;
+      return `${d}д. ${h}:${m}:${s}`;
     }
     el.innerText = getTime(NY);
 
