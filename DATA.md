@@ -23,6 +23,10 @@
 
 elresurs@mail.ru
 
+# Домен
+
+elresurs-spb.ru
+
 # О компании
 
 С 2007 года компания «ЭлектроРесурс» освоила собственное производство электрощитовой продукции и в настоящее время занимает лидирующие позиции в Санкт-Петербурге.
@@ -177,14 +181,3 @@ elresurs@mail.ru
 - [MINING](https://livedemo00.template-help.com/wt_prod-10987/theme/mining.html)
 - [ELRESURS.COM](https://elresurs.com/)
 - [SVAROG-SYSTEMS.RU](https://svarog-systems.ru/)
-
-# Домены
-
-- elresurs.org
-- elresurs.info
-- elresurs.site
-- elresurs.net
-- elresurs.online
-- электроресурс.рф - нельзя свою почту
-- elresurs.ru.com - можно перепутать
-- elresurs.spb.ru - можно перепутать
