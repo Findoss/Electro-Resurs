@@ -154,6 +154,32 @@ elresurs-spb.ru
 
 `вру 1, шкаф вру, сборка вру, щит вру`
 
+# Партнеры
+
+[https://www.iek.ru/](https://www.iek.ru/)  
+<img src="http://rzso.ru/upload/iblock/8c3/8c3af0f9c8d3d892d67e4929a7249bf8.png" height="100" />
+
+[https://new.abb.com/ru](https://new.abb.com/ru)  
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/ABB-Logo.svg/1280px-ABB-Logo.svg.png" height="100" />
+
+[https://ekfgroup.com](https://ekfgroup.com)  
+<img src="https://ekfgroup.com/images/main_logo.png" height="100" />
+
+[https://www.se.com/ru](https://www.se.com/ru)  
+<img src="https://www.rzso.ru/upload/iblock/5e2/5e2109169d7f7678d262b74e069d6ffd.png" height="100" />
+
+[https://new.siemens.com/](https://new.siemens.com/global/en.html)  
+<img src="https://new.siemens.com/etc.clientlibs/siemens-sites/components/content/header/clientlibs/resources/logo/siemens-logo-default.svg" height="100" />
+
+[http://hyundai-elec.com/](http://hyundai-elec.com/)  
+<img src="http://hyundai-elec.com/elec_resources/web/img_en/common/logo.png" height="100" />
+
+[https://www.kamkabel.ru](https://www.kamkabel.ru)  
+<img src="https://www.kamkabel.ru/images/kamkabelnew/img/general/logo-clean.png" height="100" />
+
+[https://www.minimaks.ru/](https://www.minimaks.ru/catalog/)  
+<img src="https://www.minimaks.ru/local/templates/main/svg/logo.svg" height="100" />
+
 # Клиенты
 
 - Промышленные предприятия
@@ -172,7 +198,6 @@ elresurs-spb.ru
 - [04KV.COM](https://www.04kv.com/)
 - [ESHS.RU](http://eshs.ru/)
 - [FABER-ELECTRO.RU](http://faber-electro.ru/)
-
 - [URAL-ELECTRO.RU](http://www.ural-electro.ru/)
 
 # Сайты-примеры
