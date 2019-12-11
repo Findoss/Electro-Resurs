@@ -12,6 +12,8 @@
 
 198206, г. Санкт-Петербург, Петергофское ш., 75 (территория завода сигнал)
 
+<img  src="https://downloader.disk.yandex.ru/preview/615977e683cc2499f1df5e87ac5e7b2b519dfbfe313c84c5e3f7c0ae6252235d/5df14060/e1gjcAtCHhIXLyiMqGmjYTPXz_bXS3SmoQlwonO4LW-J2XhmS-ltBaE6H4XwaF4sBk6-9G3fBiADZzeF0-ufJA==?uid=0&filename=%D0%91%D0%B5%D0%B7+%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_11-12-2019_18-11-23.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&owner_uid=176706128&size=2048x2048" w="200"/>
+
 ## Юридический адрес
 
 198206, г. Санкт-Петербург, шоссе Петергофское, дом 75 корпус 1 литер Б, помещение №4
