@@ -60,6 +60,10 @@ elresurs-spb.ru
 
 Для наших клиентов всегда гарантируются: высокое качество продукции, индивидуальный подход, своевременность поставок и техническая поддержка.
 
+<img src="https://www.expert-elektrik.ru/upload/iblock/191/banner-002.png" height="300" />
+<img src="https://www.expert-elektrik.ru/upload/iblock/87e/87e030644bcfdc893b2c36c82f8027bc.jpg" height="300" />
+<img src="https://www.expert-elektrik.ru/upload/iblock/453/45384a294b885c1028ece7852a62766f.jpg" height="300" />
+
 # Услуги
 
 ## Производство электрощитовой продукции
@@ -165,7 +169,7 @@ elresurs-spb.ru
 
 ### Вводно-распределительное устройство (ВРУ)
 
-<img src="https://evraz.pro/upload/resize_cache/iblock/bd2/284_284_1/bd200c976750ec3cec2f6b3161877108.jpg" height="200" />
+<img src="http://www.energoprj.ru/asu/img/foto1/vru.jpg" height="200" />
 
 <img src="https://images.ua.prom.st/1245996769_vvodno-raspredelitelnoe-ustrojstvo-vru.jpg" height="200" />
 
