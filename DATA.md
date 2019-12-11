@@ -12,6 +12,8 @@
 
 198206, г. Санкт-Петербург, Петергофское ш., 75 (территория завода сигнал)
 
+<img  src="https://downloader.disk.yandex.ru/preview/615977e683cc2499f1df5e87ac5e7b2b519dfbfe313c84c5e3f7c0ae6252235d/5df14060/e1gjcAtCHhIXLyiMqGmjYTPXz_bXS3SmoQlwonO4LW-J2XhmS-ltBaE6H4XwaF4sBk6-9G3fBiADZzeF0-ufJA==?uid=0&filename=%D0%91%D0%B5%D0%B7+%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_11-12-2019_18-11-23.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&owner_uid=176706128&size=2048x2048" w="200"/>
+
 ## Юридический адрес
 
 198206, г. Санкт-Петербург, шоссе Петергофское, дом 75 корпус 1 литер Б, помещение №4
@@ -59,6 +61,19 @@ elresurs-spb.ru
 образованием.
 
 Для наших клиентов всегда гарантируются: высокое качество продукции, индивидуальный подход, своевременность поставок и техническая поддержка.
+
+<img src="https://www.expert-elektrik.ru/upload/iblock/191/banner-002.png" height="300" />
+<img src="https://www.expert-elektrik.ru/upload/iblock/87e/87e030644bcfdc893b2c36c82f8027bc.jpg" height="300" />
+<img src="https://www.expert-elektrik.ru/upload/iblock/453/45384a294b885c1028ece7852a62766f.jpg" height="300" />
+
+# Преимущества
+
+- Опыт работы в сфере электромонтажных услуг - 12 лет;
+- Наши клиенты - известные фирмы;
+- Заказанные работы выполняются строго в срок;
+- Быстрые сроки согласования проектов;
+- Наилучшее соотношение цена/качество на проектные работы, монтажные работы и сборку электрощитового оборудования;
+- Широкий штат профессионально обученных сотрудников;
 
 # Услуги
 
@@ -165,7 +180,7 @@ elresurs-spb.ru
 
 ### Вводно-распределительное устройство (ВРУ)
 
-<img src="https://evraz.pro/upload/resize_cache/iblock/bd2/284_284_1/bd200c976750ec3cec2f6b3161877108.jpg" height="200" />
+<img src="http://www.energoprj.ru/asu/img/foto1/vru.jpg" height="200" />
 
 <img src="https://images.ua.prom.st/1245996769_vvodno-raspredelitelnoe-ustrojstvo-vru.jpg" height="200" />
 
@@ -223,6 +238,7 @@ elresurs-spb.ru
 - [ESHS.RU](http://eshs.ru/)
 - [FABER-ELECTRO.RU](http://faber-electro.ru/)
 - [URAL-ELECTRO.RU](http://www.ural-electro.ru/)
+- [EXPERT-ELEKTRIK.RU](https://www.expert-elektrik.ru/services/sborka/sborka-shkafov-oborudovaniya/)
 
 # Сайты-примеры
 
