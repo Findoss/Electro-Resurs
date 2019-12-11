@@ -238,6 +238,7 @@ elresurs-spb.ru
 - [ESHS.RU](http://eshs.ru/)
 - [FABER-ELECTRO.RU](http://faber-electro.ru/)
 - [URAL-ELECTRO.RU](http://www.ural-electro.ru/)
+- [EXPERT-ELEKTRIK.RU](https://www.expert-elektrik.ru/services/sborka/sborka-shkafov-oborudovaniya/)
 
 # Сайты-примеры
 
