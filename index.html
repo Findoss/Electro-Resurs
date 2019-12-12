@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" type="image/png" href="./logo/images/logo-16x16-blw.png" />
     <title>Электро Ресурс</title>
   </head>
   <style>
@@ -39,7 +40,7 @@
 
     const NY = new Date(2020, 0).getTime();
 
-    function getTime(nextTime) {
+    function getCountdownTime(nextTime) {
       let t = Math.abs(((nextTime - Date.now()) / 1000).toFixed(0));
       let s = (((t % oneDay) % oneHour) % oneMinute) / 1;
       let m = ~~(((t % oneDay) % oneHour) / oneMinute);
@@ -47,10 +48,10 @@
       let d = ~~(t / oneDay);
       return `${d}д. ${h}:${m}:${s}`;
     }
-    el.innerText = getTime(NY);
+    el.innerText = getCountdownTime(NY);
 
     setInterval(() => {
-      el.innerText = getTime(NY);
+      el.innerText = getCountdownTime(NY);
     }, 1000);
   </script>
 </html>
