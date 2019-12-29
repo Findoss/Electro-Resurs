@@ -1,0 +1,22 @@
+{
+  "name": "elektro-resurs",
+  "version": "1.0.0",
+  "description": "ООО «ЭлектроРесурс» собирает электрощиты с 2007 года на собственном производстве в Санкт-Петербурге.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Findoss/Elektro-Resurs.git"
+  },
+  "author": "Findoss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Findoss/Elektro-Resurs/issues"
+  },
+  "homepage": "https://github.com/Findoss/Elektro-Resurs#readme",
+  "devDependencies": {
+    "save-svg-as-png": "^1.4.14"
+  }
+}
