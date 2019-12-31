@@ -3,4 +3,5 @@ tmp
 node_modules
 draft.md
 private.md
+private
 *.todo
