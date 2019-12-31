@@ -4,54 +4,684 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="icon" type="image/png" href="./logo/images/logo-16x16-blw.png" />
+    <meta
+      name="description"
+      content="ООО «ЭлектроРесурс» собирает электрощиты с 2007 года на собственном производстве в Санкт-Петербурге."
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./public/images/logo/png/favicon.png"
+    />
+    <link rel="stylesheet" href="./public/bundle.css" />
     <title>Электро Ресурс</title>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function(m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function() {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          (k.async = 1),
+          (k.src = r),
+          a.parentNode.insertBefore(k, a);
+      })(
+        window,
+        document,
+        "script",
+        "https://mc.yandex.ru/metrika/tag.js",
+        "ym"
+      );
+
+      ym(56881705, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true
+      });
+    </script>
+    <noscript
+      ><div>
+        <img
+          src="https://mc.yandex.ru/watch/56881705"
+          style="position:absolute; left:-9999px;"
+          alt=""
+        /></div
+    ></noscript>
+    <!-- /Yandex.Metrika counter -->
   </head>
-  <style>
-    body {
-      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-        "Lucida Sans", Arial, sans-serif;
-      font-size: 6vw;
-      text-align: center;
-
-      font-weight: bold;
-      color: #2874a6;
-    }
-
-    #countdown {
-      width: 100%;
-    }
-  </style>
   <body>
-    <img src="./logo/svg/logo.svg" alt="logo" />
-    <span>
-      появится в сети через
-    </span>
-    <br />
-    <br />
-    <div id="countdown"></div>
+    <div id="app">
+  <div id="about"></div>
+  <!-- menu -->
+  <div class="menu">
+    <div class="menu-container">
+      <div class="row">
+
+        <div class="col-md-2">
+          <a href="#about">
+            <img src="./public/images/logo/svg/logo.web.svg" alt="logo" class="menu__logo">
+          </a>
+        </div>
+
+        <div class="col-md text--center">
+          <ul class="menu__navigation">
+            
+              <li class="navigation__item">
+                <a href="#el-panels" class="">Производство электрощитов</a>
+              </li>
+            
+              <li class="navigation__item">
+                <a href="#projects" class="">Готовые объекты</a>
+              </li>
+            
+              <li class="navigation__item">
+                <a href="#contacts" class="">Адресс и Контакты</a>
+              </li>
+            
+          </ul>
+        </div>
+
+        <div class="col-md-2 text--left menu__contacts contacts">
+          <div class="contact-container contact__mail ">
+            <span class="icon mail"></span>
+            <span>
+              <a href="mailto:elresurs@mail.ru" class="text--size-l text--nowrap ">
+                elresurs@mail.ru
+              </a>
+            </span>
+          </div>
+  
+          <div class="contact-container contact__phone">
+            <span class="icon phone "></span>
+            <span>
+              <a href="tel:88123725018" class="text--nowrap">
+                <span class="text--size-m">8(812)</span>
+                <span class="text--size-l text--bold phone">372-50-18</span>
+              </a>
+            </span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- menu end -->
+
+  <!-- about -->
+  <div class="row about" >
+    <div class="col-md-5 about-container">
+      <h1 class="text--size-xxl">Сборка электрощитов</h1>
+      <br>
+      <p class="text--size-xl">Мы собираем электрощиты с 2007 года <br> на собственном производстве в <br> Санкт-Петербурге.</p>
+      <br>
+      <br>
+      <a href="#contacts">
+        <button>Получить расчет стоимости сборки</button>
+      </a>
+    </div>
+  </div>
+
+  <!-- el-panel -->
+  <div class="row padding-body el-panel" id="el-panels">
+    <h2 style="width: 100%;" class="text--size-xxl">Производство электрощитов</h2>
+    <br>
+    <p class="text--size-xl">Изготавливаем навесные, напольные, встраиваемые щиты с <br> разной степенью защиты, с учетом безопасной эксплуатации в <br> различных климатических зонах.</p>
+    <br>
+
+    <div class="row panel-grid">
+      
+        <div class="col-md-3 panel-grid__row">
+          <img src="./public/images/el_panels/GRSHH.jpg" alt="electric panel" class="panel-grid__img">
+          <br>
+          <h3 class="text--size-l" class="panel-grid__title">Главный распределительный <br> щит</h3>
+          
+            <abbr class="text--color-4 text--up">
+              ГРЩ
+            </abbr>
+            <br>
+          
+          <!-- <span class="el-panel__button panel-grid__button">
+            Подробнее
+          </span> -->
+        </div>
+      
+        <div class="col-md-3 panel-grid__row">
+          <img src="./public/images/el_panels/AVR.jpg" alt="electric panel" class="panel-grid__img">
+          <br>
+          <h3 class="text--size-l" class="panel-grid__title">Шкафы автоматического <br> ввода резерва</h3>
+          
+            <abbr class="text--color-4 text--up">
+              АВР
+            </abbr>
+            <br>
+          
+          <!-- <span class="el-panel__button panel-grid__button">
+            Подробнее
+          </span> -->
+        </div>
+      
+        <div class="col-md-3 panel-grid__row">
+          <img src="./public/images/el_panels/VRU.jpg" alt="electric panel" class="panel-grid__img">
+          <br>
+          <h3 class="text--size-l" class="panel-grid__title">Вводно-распределительное <br> устройство</h3>
+          
+            <abbr class="text--color-4 text--up">
+              ВРУ
+            </abbr>
+            <br>
+          
+          <!-- <span class="el-panel__button panel-grid__button">
+            Подробнее
+          </span> -->
+        </div>
+      
+        <div class="col-md-3 panel-grid__row">
+          <img src="./public/images/el_panels/SHE.jpg" alt="electric panel" class="panel-grid__img">
+          <br>
+          <h3 class="text--size-l" class="panel-grid__title">Щиты для жилых домов</h3>
+          
+            <abbr class="text--color-4 text--up">
+              ЩЭ, ЩК, ГРЩД
+            </abbr>
+            <br>
+          
+          <!-- <span class="el-panel__button panel-grid__button">
+            Подробнее
+          </span> -->
+        </div>
+      
+        <div class="col-md-3 panel-grid__row">
+          <img src="./public/images/el_panels/SHU.jpg" alt="electric panel" class="panel-grid__img">
+          <br>
+          <h3 class="text--size-l" class="panel-grid__title">Щит управления</h3>
+          
+            <abbr class="text--color-4 text--up">
+              ЩУ, ШУ
+            </abbr>
+            <br>
+          
+          <!-- <span class="el-panel__button panel-grid__button">
+            Подробнее
+          </span> -->
+        </div>
+      
+        <div class="col-md-3 panel-grid__row">
+          <img src="./public/images/el_panels/SHV.jpg" alt="electric panel" class="panel-grid__img">
+          <br>
+          <h3 class="text--size-l" class="panel-grid__title">Щит вентиляции</h3>
+          
+          <!-- <span class="el-panel__button panel-grid__button">
+            Подробнее
+          </span> -->
+        </div>
+      
+        <div class="col-md-3 panel-grid__row">
+          <img src="./public/images/el_panels/metro.jpg" alt="electric panel" class="panel-grid__img">
+          <br>
+          <h3 class="text--size-l" class="panel-grid__title">Щиты для метрополитена</h3>
+          
+          <!-- <span class="el-panel__button panel-grid__button">
+            Подробнее
+          </span> -->
+        </div>
+      
+        <div class="col-md-3 panel-grid__row">
+          <img src="./public/images/el_panels/list.jpg" alt="electric panel" class="panel-grid__img">
+          <br>
+          <h3 class="text--size-l" class="panel-grid__title">Нетиповые щиты (по схеме заказчика)</h3>
+          
+          <!-- <span class="el-panel__button panel-grid__button">
+            Подробнее
+          </span> -->
+        </div>
+      
+    </div>
+    <ul class="panel-list" >
+      
+        <li class="col-md-4 panel-list__item">
+          <h3 class="text--size-l" >
+            Шкаф учета
+          </h3>
+          <abbr class="text--color-4 text--up">
+            ШУ
+          </abbr>
+        </li>
+      
+        <li class="col-md-4 panel-list__item">
+          <h3 class="text--size-l" >
+            Шкаф распределительный
+          </h3>
+          <abbr class="text--color-4 text--up">
+            ШР, ПР, РШЗА, РТЗО, ЩО-70
+          </abbr>
+        </li>
+      
+        <li class="col-md-4 panel-list__item">
+          <h3 class="text--size-l" >
+            Шкаф автоматики
+          </h3>
+          <abbr class="text--color-4 text--up">
+            ША
+          </abbr>
+        </li>
+      
+        <li class="col-md-4 panel-list__item">
+          <h3 class="text--size-l" >
+            Шкаф силовой
+          </h3>
+          <abbr class="text--color-4 text--up">
+            ШС, ЩС
+          </abbr>
+        </li>
+      
+        <li class="col-md-4 panel-list__item">
+          <h3 class="text--size-l" >
+            Ящик управления освещением
+          </h3>
+          <abbr class="text--color-4 text--up">
+            ЯУО
+          </abbr>
+        </li>
+      
+        <li class="col-md-4 panel-list__item">
+          <h3 class="text--size-l" >
+            Кабельные киоски
+          </h3>
+          <abbr class="text--color-4 text--up">
+            КЛ209, КЛ211
+          </abbr>
+        </li>
+      
+        <li class="col-md-4 panel-list__item">
+          <h3 class="text--size-l" >
+            Щит вводно-учетный
+          </h3>
+          <abbr class="text--color-4 text--up">
+            ЩВУ, ШВУ
+          </abbr>
+        </li>
+      
+        <li class="col-md-4 panel-list__item">
+          <h3 class="text--size-l" >
+            ЩО-70
+          </h3>
+          <abbr class="text--color-4 text--up">
+            
+          </abbr>
+        </li>
+      
+        <li class="col-md-4 panel-list__item">
+          <h3 class="text--size-l" >
+            Осветительный щиток
+          </h3>
+          <abbr class="text--color-4 text--up">
+            
+          </abbr>
+        </li>
+      
+        <li class="col-md-4 panel-list__item">
+          <h3 class="text--size-l" >
+            Временные щиты <br> на стройплощадку
+          </h3>
+          <abbr class="text--color-4 text--up">
+            
+          </abbr>
+        </li>
+      
+        <li class="col-md-4 panel-list__item">
+          <h3 class="text--size-l" >
+            Шкаф уличного освещения
+          </h3>
+          <abbr class="text--color-4 text--up">
+            
+          </abbr>
+        </li>
+      
+        <li class="col-md-4 panel-list__item">
+          <h3 class="text--size-l" >
+            Распределительное <br> устройство РУ-0.4
+          </h3>
+          <abbr class="text--color-4 text--up">
+            
+          </abbr>
+        </li>
+      
+    </ul>
+  </div>
+
+  <!-- offer -->
+  <div class="row padding-body offer">
+    <div class="offer-container">
+      <span class="text--size-xxl text--bold">Хотите узнать стоимость сборки <br> электрощитов?</span>
+      <a href="#contacts">
+        <button>Получить комерческое предложение</button>
+      </a>
+    </div>
+  </div>
+
+  <!-- suppliers -->
+  <div class="row padding-body supplier">
+    <div class="col-md-12">
+      <h2 class="text--size-xxl">Только сертифицированное <br> оборудование</h2>
+      <br>
+      <br>
+      <p class="text--size-xl"> Собираем из сертифицированных комплектующих известных мировых производителей: ABB, Schneider Electric, Finder, Siemens, Rittal и других. </p>
+      <br>
+      <ul class="supplier__list">
+        
+        <li>
+          <img src="./public/images/suppliers/ABB.svg" alt="logo supplier" class="supplier__logo">
+        </li>
+        
+        <li>
+          <img src="./public/images/suppliers/Siemens.png" alt="logo supplier" class="supplier__logo">
+        </li>
+        
+        <li>
+          <img src="./public/images/suppliers/Legrand.png" alt="logo supplier" class="supplier__logo">
+        </li>
+        
+        <li>
+          <img src="./public/images/suppliers/Schneider_Electric.png" alt="logo supplier" class="supplier__logo">
+        </li>
+        
+        <li>
+          <img src="./public/images/suppliers/EKF.svg" alt="logo supplier" class="supplier__logo">
+        </li>
+        
+        <li>
+          <img src="./public/images/suppliers/Hyundai.png" alt="logo supplier" class="supplier__logo">
+        </li>
+        
+        <li>
+          <img src="./public/images/suppliers/IEK.png" alt="logo supplier" class="supplier__logo">
+        </li>
+        
+        <li>
+          <img src="./public/images/suppliers/DKC.svg" alt="logo supplier" class="supplier__logo">
+        </li>
+        
+        <li>
+          <img src="./public/images/suppliers/KEAZ.png" alt="logo supplier" class="supplier__logo">
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  <!-- advantages -->
+  <div class="row advantages">
+    <div class="padding-body">
+      <h2 class="text--size-xxl">Наши преимущества</h2>
+      <br>
+      <p class="text--size-xl">Качественная сборка по индивидуальным проетам. Все электрощиты проходят многоуровневую проверку. <br> При выборе комплектующих руководствуемся стандартами ГОСТ, СНиП, ПУЭ.</p>
+      <ul class="advantage-container text--center">
+        
+          <li >
+            <h3 class="advantage-title text--bold">35</h3>
+            <span class="advantage-postfix">проектов</span>
+            <br>
+            <span class="advantage-caption text--size-m">Более 35 масштабных проектов</span>
+          </li>
+        
+          <li >
+            <h3 class="advantage-title text--bold">13</h3>
+            <span class="advantage-postfix">лет</span>
+            <br>
+            <span class="advantage-caption text--size-m">13 лет на рынке</span>
+          </li>
+        
+          <li >
+            <h3 class="advantage-title text--bold">2</h3>
+            <span class="advantage-postfix">года</span>
+            <br>
+            <span class="advantage-caption text--size-m">Гарантия на всё обррудование</span>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  <!-- projects -->
+  <div class="row padding-body projects" id="projects">
+    <div class="col-md-12">
+      <h2 class="text--size-xxl">Готовые обекты</h2>
+      <br>
+      <br>
+      <p class="text--size-xl"> Наши щиты работают на промышленных предприятиях, складских комплексах, в коттеджных поселках, торговых и бизнес центрах, атомных станциях и портах. </p>
+      <br>
+      <ul class="row projects__list">
+        
+        <li class="col-md-4">
+          <figure class="photo-container">
+            <img src="./public/images/projects/atom_3.jpg" alt="logo supplier" class="photo-project">
+          </figure>
+          <figcaption class="text-size-m figcaption">Ленинградская АЭС</figcaption>
+        </li>
+        
+        <li class="col-md-4">
+          <figure class="photo-container">
+            <img src="./public/images/projects/admship_1.jpg" alt="logo supplier" class="photo-project">
+          </figure>
+          <figcaption class="text-size-m figcaption">Завод «Адмиралтейские верфи»</figcaption>
+        </li>
+        
+        <li class="col-md-4">
+          <figure class="photo-container">
+            <img src="./public/images/projects/sberbank_3.jpg" alt="logo supplier" class="photo-project">
+          </figure>
+          <figcaption class="text-size-m figcaption">Банк «Сбербанк России»</figcaption>
+        </li>
+        
+        <li class="col-md-4">
+          <figure class="photo-container">
+            <img src="./public/images/projects/metro_3.jpg" alt="logo supplier" class="photo-project">
+          </figure>
+          <figcaption class="text-size-m figcaption">Петербургский Метрополитен</figcaption>
+        </li>
+        
+        <li class="col-md-4">
+          <figure class="photo-container">
+            <img src="./public/images/projects/fosforit_3.jpg" alt="logo supplier" class="photo-project">
+          </figure>
+          <figcaption class="text-size-m figcaption">ПГ «Фосфорит»</figcaption>
+        </li>
+        
+        <li class="col-md-4">
+          <figure class="photo-container">
+            <img src="./public/images/projects/zsd_2.jpg" alt="logo supplier" class="photo-project">
+          </figure>
+          <figcaption class="text-size-m figcaption">Магистраль северной столицы (ЗСД)</figcaption>
+        </li>
+        
+      </ul>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h4 class="text--size-xl">Другие обекты</h4>
+      <ul class="row projects__list">
+        
+        <li class="col-md-4 projects-list__item">
+          Завод «ЭНЕРГОФОРМ»
+        </li>
+        
+        <li class="col-md-4 projects-list__item">
+          Банк «Балтийский банк»
+        </li>
+        
+        <li class="col-md-4 projects-list__item">
+          Бизнес-центр «Эрикссонъ»
+        </li>
+        
+        <li class="col-md-4 projects-list__item">
+          ПИЯФ РАН
+        </li>
+        
+        <li class="col-md-4 projects-list__item">
+          ТЦ «МебельСити»
+        </li>
+        
+        <li class="col-md-4 projects-list__item">
+          Бизнес-центр «М-94»
+        </li>
+        
+        <li class="col-md-4 projects-list__item">
+          ТЦ «Андреевский двор»
+        </li>
+        
+        <li class="col-md-4 projects-list__item">
+          ТРК «Гарден сити»
+        </li>
+        
+        <li class="col-md-4 projects-list__item">
+          ТРК «Балканский»
+        </li>
+        
+        <li class="col-md-4 projects-list__item">
+          АЗС «SHELL»
+        </li>
+        
+        <li class="col-md-4 projects-list__item">
+          «Красноярский ГХК»
+        </li>
+        
+        <li class="col-md-4 projects-list__item">
+          ЖК «Леонтьевский мыс»
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  <!-- contacts -->
+  <div class="row padding-body " id="contacts">
+    <div class="col-md-5 contacts">
+      <h2 class="text--size-xxl">Контакты</h2>
+      <br>
+      <div class="text--left contacts-container" >
+
+        <div class="contact-container contact__mail ">
+          <span class="icon mail"></span>
+          <span>
+            <span class="text--color-4">
+              Электронная почта
+            </span>
+            <br>
+            <a href="mailto:elresurs@mail.ru" class="text--size-xl text--nowrap ">
+              elresurs@mail.ru
+            </a>
+          </span>
+        </div>
+
+        <div class="contact-container contact__phone">
+          <span class="icon phone "></span>
+          <span>
+            <span class="text--color-4">
+              Телефон
+            </span>
+            <br>
+            <a href="tel:88123725018" class="text--nowrap">
+              <span class="text--size-l">8(812)</span>
+              <span class="text--size-xl text--bold phone">372-50-18</span>
+            </a>
+          </span>
+        </div>
+
+        <div class="contact-container contact__access-time">
+          <span class="icon access-time"></span>
+          <span>
+            <span class="text--color-4">
+              Время работы:
+            </span>
+            <br>
+            <span class="text--size-l text--nowrap">Пн-Пт с 9:00 до 17:00</span>
+          </span>
+        </div>
+
+        <div class="contact-container contact__addres">
+          <span class="icon address"></span>
+          <span>
+            <span class="text--color-4">
+              Адресс производства
+            </span>
+            <br>
+            <a href="http://yandex.ru/maps/-/CGhJzX-4" target="_blank">
+              <span class="text--size-l">Санкт-Петербург, Петергофское ш., 75 <br> территория завода «СИГНАЛ»</span>
+            </a>
+          </span>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-md-7 map">
+      <iframe
+        src="https://yandex.ru/map-widget/v1/?um=constructor%3A2f08d4818a67ae5c4000932882524ff0c1090242e5b0f6b1f1414b7ff4a74791&amp;source=constructor"
+        width="100%"
+        height="400"
+        frameborder="0"
+      ></iframe>
+    </div>
+  </div>
+
+  <!-- signature -->
+  <br>
+  <br>
+  <hr>
+  <div class="text--color-4 signature">
+    <img src="./public/images/logo/svg/logo-tagline.web.svg" alt="logo" class="signature__logo">
+    <p class="signature__text text--color-4">
+      Все права защищены © 2020 | Электроресурс — производство электрощитов
+    </p>
+  </div>
+
+  <br>
+  <br>
+</div>
+    <div class="mobile_stub">
+      <img
+        src="./public/images/logo/svg/logo-tagline.web.svg"
+        alt="logo"
+        width="80%"
+      />
+      <br />
+      <br />
+      <div class="contacts_stab">
+        <div class="contact-container contact__mail ">
+          <span>
+            <span class="text--color-4">
+              Электронная почта
+            </span>
+            <br />
+            <a href="mailto:elresurs@mail.ru" class="text--size-xxl">
+              elresurs@mail.ru
+            </a>
+          </span>
+        </div>
+
+        <div class="contact-container contact__phone">
+          <span>
+            <span class="text--color-4">
+              Телефон
+            </span>
+            <br />
+            <a href="tel:88123725018">
+              <span class="text--size-xxl text--color-4">8(812)</span>
+              <span class="text--size-xxl text--bold phone">372-50-18</span>
+            </a>
+          </span>
+        </div>
+      </div>
+      <br />
+      <hr />
+      <br />
+      Мобильная версия сайта в разработке.
+    </div>
   </body>
-  <script>
-    const el = document.getElementById("countdown");
-
-    const oneDay = 86400;
-    const oneHour = 3600;
-    const oneMinute = 60;
-
-    const NY = new Date(2020, 0).getTime();
-
-    function getCountdownTime(nextTime) {
-      let t = Math.abs(((nextTime - Date.now()) / 1000).toFixed(0));
-      let s = (((t % oneDay) % oneHour) % oneMinute) / 1;
-      let m = ~~(((t % oneDay) % oneHour) / oneMinute);
-      let h = ~~((t % oneDay) / oneHour);
-      let d = ~~(t / oneDay);
-      return `${d}д. ${h}:${m}:${s}`;
-    }
-    el.innerText = getCountdownTime(NY);
-
-    setInterval(() => {
-      el.innerText = getCountdownTime(NY);
-    }, 1000);
-  </script>
 </html>
