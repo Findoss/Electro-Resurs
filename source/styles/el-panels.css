@@ -1,0 +1,50 @@
+.el-panel {
+  width: 100%;
+}
+
+.panel-grid {
+}
+
+.panel-grid__row {
+  margin-top: 64px;
+  overflow: hidden;
+}
+
+.panel-grid__img {
+  height: 160px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.panel-grid__title {
+}
+
+.panel-grid__button {
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.panel-grid__button:hover {
+  color: var(--color3);
+}
+
+.panel-grid__button::after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: 6px;
+  width: 24px;
+  height: 24px;
+  background-image: url(./public/images/icons/keyboard_arrow_down-24px.svg);
+}
+
+.panel-list {
+  margin-top: 64px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.panel-list__item {
+  padding: 0;
+  padding-bottom: 16px;
+}

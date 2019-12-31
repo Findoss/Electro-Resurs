@@ -1,5 +1,5 @@
 :root {
-  --color1: #2874a6;
+  --color1: #035096;
   --color2: #000000;
   --color3: #ffffff;
   --color4: #efefef;
@@ -43,7 +43,7 @@ li {
 }
 
 table {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 tr:first-child {

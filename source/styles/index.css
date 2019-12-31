@@ -1,0 +1,197 @@
+:root {
+  --color1: white;
+  --color2: black;
+  --color3: #035096;
+  --color4: #888;
+  --color5: #eee;
+}
+
+html {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 12pt;
+  letter-spacing: 0.4pt;
+  color: var(--color2);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+a {
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  color: var(--color3);
+  text-decoration: underline;
+}
+
+br {
+  clear: both;
+  word-wrap: break-word;
+}
+
+button {
+  border: 2px solid var(--color3);
+  background-color: var(--color3);
+  color: var(--color1);
+  padding: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid var(--color3);
+  background-color: var(--color1);
+  color: var(--color3);
+}
+
+.text--center {
+  text-align: center;
+}
+
+.text--left {
+  text-align: left;
+}
+
+.text--right {
+  text-align: right;
+}
+
+.text--color-1 {
+  color: var(--color1);
+}
+
+.text--color-2 {
+  color: var(--color2);
+}
+
+.text--color-3 {
+  color: var(--color3);
+}
+
+.text--color-4 {
+  color: var(--color4);
+}
+
+.text--size-xxs {
+  font-size: 0.7rem;
+}
+
+.text--size-xs {
+  font-size: 0.8rem;
+}
+
+.text--size-s {
+  font-size: 0.9rem;
+}
+
+.text--size-m {
+  font-size: 1rem;
+}
+
+.text--size-l {
+  font-size: 1.1555rem;
+}
+
+.text--size-xl {
+  font-size: 1.3555rem;
+}
+
+.text--size-xxl {
+  font-size: 2.2rem;
+}
+
+.text--bold {
+  font-weight: bold;
+}
+
+.text--up {
+  text-transform: uppercase;
+}
+
+.text--bottom {
+  vertical-align: bottom;
+}
+
+.text--nowrap {
+  white-space: nowrap;
+}
+
+.padding-body {
+  margin: 0;
+  padding: 0;
+  padding-top: 64px;
+  padding-right: 24px;
+  padding-left: 24px;
+  width: 100%;
+}
+
+.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+
+#app {
+  max-width: 1280px;
+}
+
+/* HACK */
+.col-md-12 {
+  padding: 0;
+}
+
+.signature {
+  margin: 24px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  color: var(--color3);
+}
+
+.signature__logo {
+  height: 60px;
+}
+
+.signature__text {
+}
+
+/**/
+
+.contacts_stab {
+  /* position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  text-align: center;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.mobile_stub {
+  display: none;
+  position: relative;
+  font-size: 2rem;
+  color: var(--color3);
+  text-align: center;
+  margin: 24px;
+}
+
+@media screen and (max-width: 990px) {
+  #app {
+    display: none;
+  }
+
+  .mobile_stub {
+    display: block;
+  }
+}

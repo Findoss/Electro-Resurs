@@ -1,7 +1,11 @@
-tmp
 .vscode
 node_modules
-draft.md
-private.md
+
+tmp
 private
+
+*.private
 *.todo
+
+draft.md
+private.*
