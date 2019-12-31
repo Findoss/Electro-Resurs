@@ -1,0 +1,28 @@
+.advantages {
+  margin: 0;
+  margin-top: 64px;
+  height: 416px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: var(--color3);
+  color: var(--color1);
+}
+
+.advantage-container {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.advantage-title {
+  font-size: 6.5rem;
+  display: inline-block;
+}
+
+.advantage-postfix {
+  position: relative;
+  top: -4rem;
+}
+
+.advantage-caption {
+}

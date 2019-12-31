@@ -1,0 +1,24 @@
+.about {
+  margin: 0;
+  margin-top: 64px;
+  height: 400px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  overflow: hidden;
+
+  background: url(../../public/images/image_1.png);
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-container {
+  margin-left: 24px;
+  border-radius: 5px;
+  background-color: var(--color1);
+  padding: 24px;
+}
