@@ -22,16 +22,23 @@ const templateMain = `
         </div>
 
         <div class="col-md-2 text--left menu__contacts contacts">
-          <div class="text--nowrap">
-            <a href="mailto:{{ data.mail }}" class="text--size-l icon mail">
-              {{ data.mail }}
-            </a>
+          <div class="contact-container contact__mail ">
+            <span class="icon mail"></span>
+            <span>
+              <a href="mailto:{{ data.mail }}" class="text--size-l text--nowrap ">
+                {{ data.mail }}
+              </a>
+            </span>
           </div>
-          <div class="text--nowrap">
-            <a href="tel:{{ data.phone }}" class="icon phone">
-              <span class="text--size-xss text--color-4">{{ data.phoneFormat.substr(0,6) }}</span>
-              <span class="text--size-l text--bold phone">{{ data.phoneFormat.substr(6) }}</span>
-            </a>
+  
+          <div class="contact-container contact__phone">
+            <span class="icon phone "></span>
+            <span>
+              <a href="tel:{{ data.phone }}" class="text--nowrap">
+                <span class="text--size-m">{{ data.phoneFormat.substr(0,6) }}</span>
+                <span class="text--size-l text--bold phone">{{ data.phoneFormat.substr(6) }}</span>
+              </a>
+            </span>
           </div>
         </div>
 

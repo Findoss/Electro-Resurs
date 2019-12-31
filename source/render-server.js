@@ -1,17 +1,15 @@
 const fs = require("fs");
 const path = require("path");
 const templater = require("./libs/templater.js");
-// const printPdf = require("./libs/printPdf.js");
 
 const outputPath = path.resolve("./");
 
 const pages = [
   {
     title: "index",
-    index: path.resolve("./html/index.html"),
-    template: path.resolve("./templates/main.js"),
-    data: path.resolve("./content/_data.js"),
-    pdf: path.resolve("./000.pdf")
+    index: path.resolve("./source/html/index.html"),
+    template: path.resolve("./source/templates/main.js"),
+    data: path.resolve("./source/content/_data.js")
   }
 ];
 
@@ -29,7 +27,6 @@ pages.forEach(async page => {
   const template = require(page.template);
   const data = require(page.data);
   const outputHtmlFilePath = path.resolve(outputPath, `${page.title}.html`);
-  const outputPdfFilePath = page.pdf;
 
   // HTML
   try {
@@ -45,18 +42,4 @@ pages.forEach(async page => {
   } catch (error) {
     console.log("Error generating HTML", error);
   }
-
-  // PDF
-  // try {
-  //   if (page.pdf && doesFileExist(outputPdfFilePath)) {
-  //     fs.unlinkSync(outputPdfFilePath);
-  //   }
-
-  //   const pdfPage = await printPdf(outputHtmlFilePath);
-  //   fs.writeFileSync(outputPdfFilePath, pdfPage);
-
-  //   console.log(`${page.title} succesfully created an PDF`);
-  // } catch (error) {
-  //   console.log('Error generating PDF', error);
-  // }
 });

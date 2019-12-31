@@ -40,20 +40,35 @@
   top: 5px;
 }
 
+.menu__contacts .icon {
+  margin-right: 8px;
+  margin-top: -8px;
+}
+
+.menu__contacts .contact__phone,
+.menu__contacts .contact__mail {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
 .mail::before {
-  background-image: url(../../public/images/icons/mail_outline-24px.svg);
+  /* background-image: url(../../public/images/icons/mail_outline-24px.svg); */
+  background-image: url(./public/images/icons/mail_outline-24px.svg);
 }
 
 .phone::before {
-  background-image: url(../../public/images/icons/phone-24px.svg);
+  /* background-image: url(../../public/images/icons/phone-24px.svg); */
+  background-image: url(./public/images/icons/phone-24px.svg);
 }
 
 .access-time::before {
-  background-image: url(../../public/images/icons/access_time-24px.svg);
+  /* background-image: url(../../public/images/icons/access_time-24px.svg); */
+  background-image: url(./public/images/icons/access_time-24px.svg);
 }
 
 .address::before {
-  background-image: url(../../public/images/icons/map-24px.svg);
+  /* background-image: url(../../public/images/icons/map-24px.svg); */
+  background-image: url(./public/images/icons/map-24px.svg);
   display: inline-block;
 }
 

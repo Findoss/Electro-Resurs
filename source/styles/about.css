@@ -9,7 +9,7 @@
   justify-content: start;
   overflow: hidden;
 
-  background: url(../../public/images/image_1.png);
+  background: url(./public/images/image_1.png);
   background-size: auto;
   background-position: center;
   background-repeat: no-repeat;

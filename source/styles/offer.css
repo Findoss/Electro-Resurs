@@ -11,7 +11,7 @@
   height: 240px;
   width: 100%;
 
-  background: url(../../public/images/image_0.png);
+  background: url(./public/images/image_0.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
