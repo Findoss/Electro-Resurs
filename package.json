@@ -9,6 +9,7 @@
     "css:bundle": "npm run css:concat && npm run css:uglify && rm public/prebundle.css",
     "clear:public": "rm -f public/bundle.css && rm -f public/index.html",
     "build": "npm run css:bundle && node source/render-server.js",
+    "deploy": "npm start && git add -A . && git commit -m 'update maps' && npm version patch && git push origin master && git checkout dev",
     "start": "npm run clear:public && npm run css:bundle && npm run build"
   },
   "repository": {
