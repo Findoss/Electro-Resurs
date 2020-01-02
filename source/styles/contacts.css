@@ -22,6 +22,10 @@
   margin-bottom: 24px;
 }
 
+.contact__mail {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .contact__addres {
   margin-top: 15px;
 }

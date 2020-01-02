@@ -71,27 +71,27 @@ const DATA = {
     content: [
       {
         title: "Ленинградская АЭС",
-        img: "./public/images/projects/atom_3.jpg"
+        img: "./public/images/projects/min/atom.jpg"
       },
       {
         title: "Завод «Адмиралтейские верфи»",
-        img: "./public/images/projects/admship_1.jpg"
+        img: "./public/images/projects/min/admship.jpg"
       },
       {
         title: "Банк «Сбербанк России»",
-        img: "./public/images/projects/sberbank_3.jpg"
+        img: "./public/images/projects/min/sberbank.jpg"
       },
       {
         title: "Петербургский Метрополитен",
-        img: "./public/images/projects/metro_3.jpg"
+        img: "./public/images/projects/min/metro.jpg"
       },
       {
         title: "ПГ «Фосфорит»",
-        img: "./public/images/projects/fosforit_3.jpg"
+        img: "./public/images/projects/min/fosforit.jpg"
       },
       {
         title: "Магистраль северной столицы (ЗСД)",
-        img: "./public/images/projects/zsd_2.jpg"
+        img: "./public/images/projects/min/zsd.jpg"
       }
     ],
     content2: [
@@ -135,7 +135,7 @@ const DATA = {
         size: "3",
         description:
           "Главный распределительный щит (ГРЩ) предназначен для ввода и распределения электрической энергии 0,4кВ 50 Гц на объект. Содержит аппаратуру, обеспечивающую возможность ввода, распределения, контроля и учёта электроэнергии, а также управления и защиты отходящих распределительных и групповых электрических цепей в жилых, общественных и промышленных объекта",
-        img: "./public/images/el_panels/GRSHH.jpg"
+        img: "./public/images/el_panels/min/GRSHH.jpg"
       },
       {
         title: "Шкафы автоматического <br> ввода резерва",
@@ -143,7 +143,7 @@ const DATA = {
         size: "3",
         description:
           "Панель автоматического ввода резерва (АВР) предназначена для автоматического переключения на резервное питание различных приборов и цепей при исчезновении напряжения с основного ввода.",
-        img: "./public/images/el_panels/AVR.jpg"
+        img: "./public/images/el_panels/min/AVR.jpg"
       },
       {
         title: "Вводно-распределительное <br> устройство",
@@ -158,7 +158,7 @@ const DATA = {
         abbr: ["ЩЭ", "ЩК", "ГРЩД"],
         size: "3",
         description: "description",
-        img: "./public/images/el_panels/SHE.jpg"
+        img: "./public/images/el_panels/min/SHE.jpg"
       },
       {
         title: "Щит управления",
@@ -166,7 +166,7 @@ const DATA = {
         size: "3",
         description:
           "Щит управления - устройство, предназначенное для контроля технологических процессов различного характера, а также выработки по заранее заданному алгоритму управляющих сигналов, для корректировки контролируемого процесса.",
-        img: "./public/images/el_panels/SHU.jpg"
+        img: "./public/images/el_panels/min/SHU.jpg"
       },
 
       {
@@ -174,20 +174,20 @@ const DATA = {
         size: "3",
         description:
           "Щит вентиляции используется для обеспечения контроля над работой системы вентиляции различного назначения. С его помощью можно дистанционно в автоматическом режиме изменять параметры работы нагревателей, вентиляторов, заслонок и других элементов системы вентиляции. Щит вентиляции может управлять практически любыми типами систем: с рециркуляцией, с водяным или электрическим калорифером, с рекуперацией воздуха",
-        img: "./public/images/el_panels/SHV.jpg"
+        img: "./public/images/el_panels/min/SHV.jpg"
       },
       {
         title: "Щиты для метрополитена",
         size: "3",
         description:
           "- Распределительные устройства РУНН <br>- Щит Щ380/220 <br>- ЩАОТ <br>- ШУРО <br>- ШУРО-2 <br>- ПЯ <br>- Шкаф АВР трехфазный <br>- ШАВР - 45 <br>- КММ <br>- ЯММ <br>- ЩСО <br>- ШУН <br>- Шкаф ЭМЧ -3 <br>- Шкафы постоянного тока Щ-150/110В <br>- Щиты автоматики <br>- Щиты сигнализации <br>- ЯУО",
-        img: "./public/images/el_panels/metro.jpg"
+        img: "./public/images/el_panels/min/metro.jpg"
       },
       {
         title: "Нетиповые щиты (по схеме заказчика)",
         size: "3",
         description: "description",
-        img: "./public/images/el_panels/list.jpg"
+        img: "./public/images/el_panels/min/list.jpg"
       }
     ],
     content2: [
