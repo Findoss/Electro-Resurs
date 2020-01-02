@@ -168,6 +168,16 @@ button:hover {
   .projects-list__item {
     margin-top: 8px;
   }
+  .text--size-l {
+    font-size: 1.0555rem;
+  }
+  .text--size-xl {
+    font-size: 1.2555rem;
+  }
+
+  .text--size-xxl {
+    font-size: 2rem;
+  }
 }
 
 @media only screen and (max-width: 68em) {
