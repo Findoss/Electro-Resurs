@@ -12,13 +12,13 @@ const templateMain = `
         </div>
 
         <div class="col-md text--center">
-          <ul class="menu__navigation">
+          <nav class="menu__navigation">
             {% data.menu.forEach(i => { %}
-              <li class="navigation__item">
+              <div class="navigation__item">
                 <a href="#{{ i.link }}" class="">{{ i.title }}</a>
-              </li>
+              </div>
             {% }); %}
-          </ul>
+          </nav>
         </div>
 
         <div class="col-md-2 text--left menu__contacts contacts">
@@ -35,7 +35,7 @@ const templateMain = `
             <span class="icon phone "></span>
             <span>
               <a href="tel:{{ data.phone }}" class="text--nowrap">
-                <span class="text--size-m">{{ data.phoneFormat.substr(0,6) }}</span>
+                <span class="text--size-mb text--color-4">{{ data.phoneFormat.substr(0,6) }}</span>
                 <span class="text--size-l text--bold phone">{{ data.phoneFormat.substr(6) }}</span>
               </a>
             </span>
@@ -209,7 +209,7 @@ const templateMain = `
             </span>
             <br>
             <a href="tel:{{ data.phone }}" class="text--nowrap">
-              <span class="text--size-l">{{ data.phoneFormat.substr(0,6) }}</span>
+              <span class="text--size-l text--color-4">{{ data.phoneFormat.substr(0,6) }}</span>
               <span class="text--size-xl text--bold phone">{{ data.phoneFormat.substr(6) }}</span>
             </a>
           </span>
@@ -233,7 +233,7 @@ const templateMain = `
               {{ data.addressLabel }}
             </span>
             <br>
-            <a href="{{ data.mapLink }}" target="_blank">
+            <a href="{{ data.mapLink }}" rel="noreferrer" target="_blank">
               <span class="text--size-l">{{ data.address }}</span>
             </a>
           </span>
@@ -243,6 +243,7 @@ const templateMain = `
     </div>
     <div class="col-md-7 map">
       <iframe
+        title="map"
         src="https://yandex.ru/map-widget/v1/?um=constructor%3A2f08d4818a67ae5c4000932882524ff0c1090242e5b0f6b1f1414b7ff4a74791&amp;source=constructor"
         width="100%"
         height="400"
