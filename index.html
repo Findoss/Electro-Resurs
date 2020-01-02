@@ -62,13 +62,17 @@
     <div class="menu-container">
       <div class="row">
 
-        <div class="col-md-2">
+        <div class="col-md-2 col-sm-3 col-xs-4">
           <a href="#about">
-            <img src="./public/images/logo/svg/logo.web.svg" alt="logo" class="menu__logo">
+            <img src="./public/images/logo/svg/logo.web.svg" alt="logo" class="menu__logo-d">
+            <img src="./public/images/logo/svg/logo-symbol.web.svg" alt="logo" class="menu__logo-m">
           </a>
         </div>
 
-        <div class="col-md text--center">
+        <div class="col-md col-sm-6 col-xs-2 end-sx text--center">
+          <button class="navigation__toggle i-menu">
+          </button>
+
           <nav class="menu__navigation">
             
               <div class="navigation__item">
@@ -86,16 +90,8 @@
           </nav>
         </div>
 
-        <div class="col-md-2 text--left menu__contacts contacts">
-          <div class="contact-container contact__mail ">
-            <span class="icon mail"></span>
-            <span>
-              <a href="mailto:elresurs@mail.ru" class="text--size-l text--nowrap ">
-                elresurs@mail.ru
-              </a>
-            </span>
-          </div>
-  
+        <div class="col-md-2 col-sm-3 col-xs-6 center-xs text--left menu__contacts contacts" >
+
           <div class="contact-container contact__phone">
             <span class="icon phone "></span>
             <span>
@@ -105,7 +101,17 @@
               </a>
             </span>
           </div>
+          
+          <div class="contact-container contact__mail ">
+          <span class="icon mail"></span>
+          <span>
+            <a href="mailto:elresurs@mail.ru" class="text--size-l text--nowrap ">
+              elresurs@mail.ru
+            </a>
+          </span>
         </div>
+
+      </div>
 
       </div>
     </div>
@@ -113,8 +119,8 @@
   <!-- menu end -->
 
   <!-- about -->
-  <div class="row about" >
-    <div class="col-md-5 about-container">
+  <div class="row start-md center-sm center-xs about" >
+    <div class="col-lg-5 col-md-6 col-sm-7 col-sx-12 about-container">
       <h1 class="text--size-xxl">Сборка электрощитов</h1>
       <br>
       <p class="text--size-xl">Мы собираем электрощиты с 2007 года <br> на собственном производстве в <br> Санкт-Петербурге.</p>
@@ -133,9 +139,9 @@
     <p class="text--size-xl">Изготавливаем навесные, напольные, встраиваемые щиты с <br> разной степенью защиты, с учетом безопасной эксплуатации в <br> различных климатических зонах.</p>
     <br>
 
-    <div class="row panel-grid">
+    <div class="row panel-grid center-xs">
       
-        <div class="col-md-3 panel-grid__row">
+        <div class="col-md-3 col-sm-4 col-xs-6 panel-grid__row">
           <img src="./public/images/el_panels/min/GRSHH.jpg" alt="electric panel" class="panel-grid__img">
           <br>
           <h3 class="text--size-l" class="panel-grid__title">Главный распределительный <br> щит</h3>
@@ -150,7 +156,7 @@
           </span> -->
         </div>
       
-        <div class="col-md-3 panel-grid__row">
+        <div class="col-md-3 col-sm-4 col-xs-6 panel-grid__row">
           <img src="./public/images/el_panels/min/AVR.jpg" alt="electric panel" class="panel-grid__img">
           <br>
           <h3 class="text--size-l" class="panel-grid__title">Шкафы автоматического <br> ввода резерва</h3>
@@ -165,7 +171,7 @@
           </span> -->
         </div>
       
-        <div class="col-md-3 panel-grid__row">
+        <div class="col-md-3 col-sm-4 col-xs-6 panel-grid__row">
           <img src="./public/images/el_panels/VRU.jpg" alt="electric panel" class="panel-grid__img">
           <br>
           <h3 class="text--size-l" class="panel-grid__title">Вводно-распределительное <br> устройство</h3>
@@ -180,7 +186,7 @@
           </span> -->
         </div>
       
-        <div class="col-md-3 panel-grid__row">
+        <div class="col-md-3 col-sm-4 col-xs-6 panel-grid__row">
           <img src="./public/images/el_panels/min/SHE.jpg" alt="electric panel" class="panel-grid__img">
           <br>
           <h3 class="text--size-l" class="panel-grid__title">Щиты для жилых домов</h3>
@@ -195,7 +201,7 @@
           </span> -->
         </div>
       
-        <div class="col-md-3 panel-grid__row">
+        <div class="col-md-3 col-sm-4 col-xs-6 panel-grid__row">
           <img src="./public/images/el_panels/min/SHU.jpg" alt="electric panel" class="panel-grid__img">
           <br>
           <h3 class="text--size-l" class="panel-grid__title">Щит управления</h3>
@@ -210,7 +216,7 @@
           </span> -->
         </div>
       
-        <div class="col-md-3 panel-grid__row">
+        <div class="col-md-3 col-sm-4 col-xs-6 panel-grid__row">
           <img src="./public/images/el_panels/min/SHV.jpg" alt="electric panel" class="panel-grid__img">
           <br>
           <h3 class="text--size-l" class="panel-grid__title">Щит вентиляции</h3>
@@ -220,7 +226,7 @@
           </span> -->
         </div>
       
-        <div class="col-md-3 panel-grid__row">
+        <div class="col-md-3 col-sm-4 col-xs-6 panel-grid__row">
           <img src="./public/images/el_panels/min/metro.jpg" alt="electric panel" class="panel-grid__img">
           <br>
           <h3 class="text--size-l" class="panel-grid__title">Щиты для метрополитена</h3>
@@ -230,7 +236,7 @@
           </span> -->
         </div>
       
-        <div class="col-md-3 panel-grid__row">
+        <div class="col-md-3 col-sm-4 col-xs-6 panel-grid__row">
           <img src="./public/images/el_panels/min/list.jpg" alt="electric panel" class="panel-grid__img">
           <br>
           <h3 class="text--size-l" class="panel-grid__title">Нетиповые щиты (по схеме заказчика)</h3>
@@ -243,7 +249,7 @@
     </div>
     <ul class="panel-list" >
       
-        <li class="col-md-4 panel-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 panel-list__item">
           <h3 class="text--size-l" >
             Шкаф учета
           </h3>
@@ -252,7 +258,7 @@
           </abbr>
         </li>
       
-        <li class="col-md-4 panel-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 panel-list__item">
           <h3 class="text--size-l" >
             Шкаф распределительный
           </h3>
@@ -261,7 +267,7 @@
           </abbr>
         </li>
       
-        <li class="col-md-4 panel-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 panel-list__item">
           <h3 class="text--size-l" >
             Шкаф автоматики
           </h3>
@@ -270,7 +276,7 @@
           </abbr>
         </li>
       
-        <li class="col-md-4 panel-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 panel-list__item">
           <h3 class="text--size-l" >
             Шкаф силовой
           </h3>
@@ -279,7 +285,7 @@
           </abbr>
         </li>
       
-        <li class="col-md-4 panel-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 panel-list__item">
           <h3 class="text--size-l" >
             Ящик управления освещением
           </h3>
@@ -288,7 +294,7 @@
           </abbr>
         </li>
       
-        <li class="col-md-4 panel-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 panel-list__item">
           <h3 class="text--size-l" >
             Кабельные киоски
           </h3>
@@ -297,7 +303,7 @@
           </abbr>
         </li>
       
-        <li class="col-md-4 panel-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 panel-list__item">
           <h3 class="text--size-l" >
             Щит вводно-учетный
           </h3>
@@ -306,7 +312,7 @@
           </abbr>
         </li>
       
-        <li class="col-md-4 panel-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 panel-list__item">
           <h3 class="text--size-l" >
             ЩО-70
           </h3>
@@ -315,7 +321,7 @@
           </abbr>
         </li>
       
-        <li class="col-md-4 panel-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 panel-list__item">
           <h3 class="text--size-l" >
             Осветительный щиток
           </h3>
@@ -324,7 +330,7 @@
           </abbr>
         </li>
       
-        <li class="col-md-4 panel-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 panel-list__item">
           <h3 class="text--size-l" >
             Временные щиты <br> на стройплощадку
           </h3>
@@ -333,7 +339,7 @@
           </abbr>
         </li>
       
-        <li class="col-md-4 panel-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 panel-list__item">
           <h3 class="text--size-l" >
             Шкаф уличного освещения
           </h3>
@@ -342,7 +348,7 @@
           </abbr>
         </li>
       
-        <li class="col-md-4 panel-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 panel-list__item">
           <h3 class="text--size-l" >
             Распределительное <br> устройство РУ-0.4
           </h3>
@@ -356,7 +362,7 @@
 
   <!-- offer -->
   <div class="row padding-body offer">
-    <div class="offer-container">
+    <div class="col-md-12 col-sm-12 col-xs-12 offer-container">
       <span class="text--size-xxl text--bold">Хотите узнать стоимость сборки <br> электрощитов?</span>
       <a href="#contacts">
         <button>Получить комерческое предложение</button>
@@ -375,39 +381,39 @@
       <ul class="supplier__list">
         
         <li>
-          <img src="./public/images/suppliers/ABB.svg" alt="logo supplier" class="supplier__logo">
+          <img src="./public/images/suppliers/ABB.svg" alt="logo supplier" class="supplier__logo" height="52px">
         </li>
         
         <li>
-          <img src="./public/images/suppliers/Siemens.png" alt="logo supplier" class="supplier__logo">
+          <img src="./public/images/suppliers/Siemens.png" alt="logo supplier" class="supplier__logo" height="52px">
         </li>
         
         <li>
-          <img src="./public/images/suppliers/Legrand.png" alt="logo supplier" class="supplier__logo">
+          <img src="./public/images/suppliers/Legrand.png" alt="logo supplier" class="supplier__logo" height="52px">
         </li>
         
         <li>
-          <img src="./public/images/suppliers/Schneider_Electric.png" alt="logo supplier" class="supplier__logo">
+          <img src="./public/images/suppliers/Schneider_Electric.png" alt="logo supplier" class="supplier__logo" height="52px">
         </li>
         
         <li>
-          <img src="./public/images/suppliers/EKF.svg" alt="logo supplier" class="supplier__logo">
+          <img src="./public/images/suppliers/EKF.svg" alt="logo supplier" class="supplier__logo" height="52px">
         </li>
         
         <li>
-          <img src="./public/images/suppliers/Hyundai.png" alt="logo supplier" class="supplier__logo">
+          <img src="./public/images/suppliers/Hyundai.png" alt="logo supplier" class="supplier__logo" height="52px">
         </li>
         
         <li>
-          <img src="./public/images/suppliers/IEK.png" alt="logo supplier" class="supplier__logo">
+          <img src="./public/images/suppliers/IEK.png" alt="logo supplier" class="supplier__logo" height="52px">
         </li>
         
         <li>
-          <img src="./public/images/suppliers/DKC.svg" alt="logo supplier" class="supplier__logo">
+          <img src="./public/images/suppliers/DKC.svg" alt="logo supplier" class="supplier__logo" height="52px">
         </li>
         
         <li>
-          <img src="./public/images/suppliers/KEAZ.png" alt="logo supplier" class="supplier__logo">
+          <img src="./public/images/suppliers/KEAZ.png" alt="logo supplier" class="supplier__logo" height="52px">
         </li>
         
       </ul>
@@ -420,23 +426,23 @@
       <h2 class="text--size-xxl">Наши преимущества</h2>
       <br>
       <p class="text--size-xl">Качественная сборка по индивидуальным проетам. Все электрощиты проходят многоуровневую проверку. <br> При выборе комплектующих руководствуемся стандартами ГОСТ, СНиП, ПУЭ.</p>
-      <ul class="advantage-container text--center">
+      <ul class="row advantage-container text--center">
         
-          <li >
+          <li class="col-md-4 col-sm-6 col-xs-12">
             <h3 class="advantage-title text--bold">35</h3>
             <span class="advantage-postfix">проектов</span>
             <br>
             <span class="advantage-caption text--size-m">Более 35 масштабных проектов</span>
           </li>
         
-          <li >
+          <li class="col-md-4 col-sm-6 col-xs-12">
             <h3 class="advantage-title text--bold">13</h3>
             <span class="advantage-postfix">лет</span>
             <br>
             <span class="advantage-caption text--size-m">13 лет на рынке</span>
           </li>
         
-          <li >
+          <li class="col-md-4 col-sm-6 col-xs-12">
             <h3 class="advantage-title text--bold">2</h3>
             <span class="advantage-postfix">года</span>
             <br>
@@ -457,42 +463,42 @@
       <br>
       <ul class="row projects__list">
         
-        <li class="col-md-4">
+        <li class="col-md-4 col-sm-6 col-xs-6">
           <figure class="photo-container">
             <img src="./public/images/projects/min/atom.jpg" alt="logo supplier" class="photo-project">
           </figure>
           <figcaption class="text-size-m figcaption">Ленинградская АЭС</figcaption>
         </li>
         
-        <li class="col-md-4">
+        <li class="col-md-4 col-sm-6 col-xs-6">
           <figure class="photo-container">
             <img src="./public/images/projects/min/admship.jpg" alt="logo supplier" class="photo-project">
           </figure>
           <figcaption class="text-size-m figcaption">Завод «Адмиралтейские верфи»</figcaption>
         </li>
         
-        <li class="col-md-4">
+        <li class="col-md-4 col-sm-6 col-xs-6">
           <figure class="photo-container">
             <img src="./public/images/projects/min/sberbank.jpg" alt="logo supplier" class="photo-project">
           </figure>
           <figcaption class="text-size-m figcaption">Банк «Сбербанк России»</figcaption>
         </li>
         
-        <li class="col-md-4">
+        <li class="col-md-4 col-sm-6 col-xs-6">
           <figure class="photo-container">
             <img src="./public/images/projects/min/metro.jpg" alt="logo supplier" class="photo-project">
           </figure>
           <figcaption class="text-size-m figcaption">Петербургский Метрополитен</figcaption>
         </li>
         
-        <li class="col-md-4">
+        <li class="col-md-4 col-sm-6 col-xs-6">
           <figure class="photo-container">
             <img src="./public/images/projects/min/fosforit.jpg" alt="logo supplier" class="photo-project">
           </figure>
           <figcaption class="text-size-m figcaption">ПГ «Фосфорит»</figcaption>
         </li>
         
-        <li class="col-md-4">
+        <li class="col-md-4 col-sm-6 col-xs-6">
           <figure class="photo-container">
             <img src="./public/images/projects/min/zsd.jpg" alt="logo supplier" class="photo-project">
           </figure>
@@ -508,51 +514,51 @@
       <h4 class="text--size-xl">Другие обекты</h4>
       <ul class="row projects__list">
         
-        <li class="col-md-4 projects-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 projects-list__item">
           Завод «ЭНЕРГОФОРМ»
         </li>
         
-        <li class="col-md-4 projects-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 projects-list__item">
           Банк «Балтийский банк»
         </li>
         
-        <li class="col-md-4 projects-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 projects-list__item">
           Бизнес-центр «Эрикссонъ»
         </li>
         
-        <li class="col-md-4 projects-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 projects-list__item">
           ПИЯФ РАН
         </li>
         
-        <li class="col-md-4 projects-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 projects-list__item">
           ТЦ «МебельСити»
         </li>
         
-        <li class="col-md-4 projects-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 projects-list__item">
           Бизнес-центр «М-94»
         </li>
         
-        <li class="col-md-4 projects-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 projects-list__item">
           ТЦ «Андреевский двор»
         </li>
         
-        <li class="col-md-4 projects-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 projects-list__item">
           ТРК «Гарден сити»
         </li>
         
-        <li class="col-md-4 projects-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 projects-list__item">
           ТРК «Балканский»
         </li>
         
-        <li class="col-md-4 projects-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 projects-list__item">
           АЗС «SHELL»
         </li>
         
-        <li class="col-md-4 projects-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 projects-list__item">
           «Красноярский ГХК»
         </li>
         
-        <li class="col-md-4 projects-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 projects-list__item">
           ЖК «Леонтьевский мыс»
         </li>
         
@@ -562,7 +568,7 @@
 
   <!-- contacts -->
   <div class="row padding-body " id="contacts">
-    <div class="col-md-5 contacts">
+    <div class="col-md-5 col-sm-12 col-xs-12 contacts">
       <h2 class="text--size-xxl">Контакты</h2>
       <br>
       <div class="text--left contacts-container" >
@@ -620,7 +626,7 @@
 
       </div>
     </div>
-    <div class="col-md-7 map">
+    <div class="col-md-7 col-sm-12 col-xs-12 map">
       <iframe
         title="map"
         src="https://yandex.ru/map-widget/v1/?um=constructor%3A2f08d4818a67ae5c4000932882524ff0c1090242e5b0f6b1f1414b7ff4a74791&amp;source=constructor"
@@ -645,44 +651,5 @@
   <br>
   <br>
 </div>
-    <div class="mobile_stub">
-      <img
-        src="./public/images/logo/svg/logo-tagline.web.svg"
-        alt="logo"
-        width="80%"
-      />
-      <br />
-      <br />
-      <div class="contacts_stab">
-        <div class="contact-container contact__mail ">
-          <span>
-            <span class="text--color-4">
-              Электронная почта
-            </span>
-            <br />
-            <a href="mailto:elresurs@mail.ru" class="text--size-xxl">
-              elresurs@mail.ru
-            </a>
-          </span>
-        </div>
-
-        <div class="contact-container contact__phone">
-          <span>
-            <span class="text--color-4">
-              Телефон
-            </span>
-            <br />
-            <a href="tel:88123725018">
-              <span class="text--size-xxl text--color-4">8(812)</span>
-              <span class="text--size-xxl text--bold phone">372-50-18</span>
-            </a>
-          </span>
-        </div>
-      </div>
-      <br />
-      <hr />
-      <br />
-      Мобильная версия сайта в разработке.
-    </div>
   </body>
 </html>
