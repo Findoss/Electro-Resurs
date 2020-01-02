@@ -38,3 +38,18 @@
 .projects-list__item {
   margin-top: 24px;
 }
+
+@media only screen and (max-width: 48em) {
+  .projects-list__item {
+    margin-top: 8px;
+  }
+}
+
+@media only screen and (max-width: 68em) {
+  .projects-list__item {
+    margin-top: 18px;
+  }
+}
+
+@media only screen and (max-width: 75em) {
+}

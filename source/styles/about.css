@@ -6,10 +6,11 @@
 
   display: flex;
   align-items: center;
-  justify-content: start;
+  /* justify-content: start; */
   overflow: hidden;
 
-  background: url(./images/image_bg_1-min.png);
+  background-color: var(--color4);
+  background-image: url(./images/image_bg_1-min.png);
   background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -21,4 +22,20 @@
   border-radius: 5px;
   background-color: var(--color1);
   padding: 24px;
+}
+
+@media only screen and (max-width: 48em) {
+  .about {
+    background-color: var(--color1);
+  }
+
+  .about-container {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 68em) {
+}
+
+@media only screen and (max-width: 75em) {
 }
