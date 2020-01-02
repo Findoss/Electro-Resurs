@@ -11,8 +11,28 @@
   height: 240px;
   width: 100%;
 
-  background: url(.images/image_bg_0-min.png);
+  background-color: var(--color4);
+  background-image: url(.images/image_bg_0-min.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media only screen and (max-width: 48em) {
+}
+
+@media only screen and (max-width: 68em) {
+  .offer-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .offer-container a {
+    margin-top: 24px;
+  }
+}
+
+@media only screen and (max-width: 75em) {
 }

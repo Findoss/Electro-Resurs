@@ -56,23 +56,23 @@
 }
 
 .mail::before {
-  /* background-image: url(../../images/icons/mail_outline-24px.svg); */
   background-image: url(./images/icons/mail_outline-24px.svg);
+  /* background-image: url(../../public/images/icons/mail_outline-24px.svg); */
 }
 
 .phone::before {
-  /* background-image: url(../../images/icons/phone-24px.svg); */
   background-image: url(./images/icons/phone-24px.svg);
+  /* background-image: url(../../public/images/icons/phone-24px.svg); */
 }
 
 .access-time::before {
-  /* background-image: url(../../images/icons/access_time-24px.svg); */
   background-image: url(./images/icons/access_time-24px.svg);
+  /* background-image: url(../../public/images/icons/access_time-24px.svg); */
 }
 
 .address::before {
-  /* background-image: url(../../images/icons/map-24px.svg); */
   background-image: url(./images/icons/map-24px.svg);
+  /* background-image: url(../../public/images/icons/map-24px.svg); */
   display: inline-block;
 }
 

@@ -141,6 +141,7 @@ button:hover {
 
 #app {
   max-width: 1280px;
+  overflow-x: hidden;
 }
 
 /* HACK */
@@ -163,34 +164,19 @@ button:hover {
 .signature__text {
 }
 
-/**/
-
-.contacts_stab {
-  /* position: relative;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; */
-  text-align: center;
-  margin: 0 auto;
-  width: 300px;
+@media only screen and (max-width: 48em) {
+  .projects-list__item {
+    margin-top: 8px;
+  }
 }
 
-.mobile_stub {
-  display: none;
-  position: relative;
-  font-size: 2rem;
-  color: var(--color3);
-  text-align: center;
-  margin: 24px;
+@media only screen and (max-width: 68em) {
+  .signature {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
 }
 
-@media screen and (max-width: 990px) {
-  #app {
-    display: none;
-  }
-
-  .mobile_stub {
-    display: block;
-  }
+@media only screen and (max-width: 75em) {
 }

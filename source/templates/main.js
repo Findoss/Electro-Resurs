@@ -5,13 +5,17 @@ const templateMain = `
     <div class="menu-container">
       <div class="row">
 
-        <div class="col-md-2">
+        <div class="col-md-2 col-sm-3 col-xs-4">
           <a href="#about">
-            <img src="./public/images/logo/svg/logo.web.svg" alt="logo" class="menu__logo">
+            <img src="./public/images/logo/svg/logo.web.svg" alt="logo" class="menu__logo-d">
+            <img src="./public/images/logo/svg/logo-symbol.web.svg" alt="logo" class="menu__logo-m">
           </a>
         </div>
 
-        <div class="col-md text--center">
+        <div class="col-md col-sm-6 col-xs-2 end-sx text--center">
+          <button class="navigation__toggle i-menu">
+          </button>
+
           <nav class="menu__navigation">
             {% data.menu.forEach(i => { %}
               <div class="navigation__item">
@@ -21,16 +25,8 @@ const templateMain = `
           </nav>
         </div>
 
-        <div class="col-md-2 text--left menu__contacts contacts">
-          <div class="contact-container contact__mail ">
-            <span class="icon mail"></span>
-            <span>
-              <a href="mailto:{{ data.mail }}" class="text--size-l text--nowrap ">
-                {{ data.mail }}
-              </a>
-            </span>
-          </div>
-  
+        <div class="col-md-2 col-sm-3 col-xs-6 center-xs text--left menu__contacts contacts" >
+
           <div class="contact-container contact__phone">
             <span class="icon phone "></span>
             <span>
@@ -40,7 +36,17 @@ const templateMain = `
               </a>
             </span>
           </div>
+          
+          <div class="contact-container contact__mail ">
+          <span class="icon mail"></span>
+          <span>
+            <a href="mailto:{{ data.mail }}" class="text--size-l text--nowrap ">
+              {{ data.mail }}
+            </a>
+          </span>
         </div>
+
+      </div>
 
       </div>
     </div>
@@ -48,8 +54,8 @@ const templateMain = `
   <!-- menu end -->
 
   <!-- about -->
-  <div class="row about" >
-    <div class="col-md-5 about-container">
+  <div class="row start-md center-sm center-xs about" >
+    <div class="col-lg-5 col-md-6 col-sm-7 col-sx-12 about-container">
       <h1 class="text--size-xxl">{{ data.offer.title }}</h1>
       <br>
       <p class="text--size-xl">{{ data.offer.description }}</p>
@@ -68,9 +74,9 @@ const templateMain = `
     <p class="text--size-xl">{{ data.elPanel.description }}</p>
     <br>
 
-    <div class="row panel-grid">
+    <div class="row panel-grid center-xs">
       {% data.elPanel.content.forEach(i => { %}
-        <div class="col-md-{{ i.size }} panel-grid__row">
+        <div class="col-md-{{ i.size }} col-sm-4 col-xs-6 panel-grid__row">
           <img src="{{ i.img }}" alt="electric panel" class="panel-grid__img">
           <br>
           <h3 class="text--size-l" class="panel-grid__title">{{ i.title }}</h3>
@@ -88,7 +94,7 @@ const templateMain = `
     </div>
     <ul class="panel-list" >
       {% data.elPanel.content2.forEach(i => { %}
-        <li class="col-md-4 panel-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 panel-list__item">
           <h3 class="text--size-l" >
             {{ i.title }}
           </h3>
@@ -102,7 +108,7 @@ const templateMain = `
 
   <!-- offer -->
   <div class="row padding-body offer">
-    <div class="offer-container">
+    <div class="col-md-12 col-sm-12 col-xs-12 offer-container">
       <span class="text--size-xxl text--bold">{{ data.offer2.description }}</span>
       <a href="#contacts">
         <button>{{ data.offer2.button }}</button>
@@ -121,7 +127,7 @@ const templateMain = `
       <ul class="supplier__list">
         {% data.supplier.imgs.forEach(i => { %}
         <li>
-          <img src="{{ i }}" alt="logo supplier" class="supplier__logo">
+          <img src="{{ i }}" alt="logo supplier" class="supplier__logo" height="52px">
         </li>
         {% }); %}
       </ul>
@@ -134,9 +140,9 @@ const templateMain = `
       <h2 class="text--size-xxl">{{ data.advantages.title }}</h2>
       <br>
       <p class="text--size-xl">{{ data.advantages.description }}</p>
-      <ul class="advantage-container text--center">
+      <ul class="row advantage-container text--center">
         {% data.advantages.content.forEach(i => { %}
-          <li >
+          <li class="col-md-4 col-sm-6 col-xs-12">
             <h3 class="advantage-title text--bold">{{ i.title }}</h3>
             <span class="advantage-postfix">{{ i.postfix }}</span>
             <br>
@@ -157,7 +163,7 @@ const templateMain = `
       <br>
       <ul class="row projects__list">
         {% data.projects.content.forEach(i => { %}
-        <li class="col-md-4">
+        <li class="col-md-4 col-sm-6 col-xs-6">
           <figure class="photo-container">
             <img src="{{ i.img }}" alt="logo supplier" class="photo-project">
           </figure>
@@ -173,7 +179,7 @@ const templateMain = `
       <h4 class="text--size-xl">{{ data.projects.title2 }}</h4>
       <ul class="row projects__list">
         {% data.projects.content2.forEach(i => { %}
-        <li class="col-md-4 projects-list__item">
+        <li class="col-md-4 col-sm-6 col-xs-12 projects-list__item">
           {{ i }}
         </li>
         {% }); %}
@@ -183,7 +189,7 @@ const templateMain = `
 
   <!-- contacts -->
   <div class="row padding-body " id="contacts">
-    <div class="col-md-5 contacts">
+    <div class="col-md-5 col-sm-12 col-xs-12 contacts">
       <h2 class="text--size-xxl">Контакты</h2>
       <br>
       <div class="text--left contacts-container" >
@@ -241,7 +247,7 @@ const templateMain = `
 
       </div>
     </div>
-    <div class="col-md-7 map">
+    <div class="col-md-7 col-sm-12 col-xs-12 map">
       <iframe
         title="map"
         src="https://yandex.ru/map-widget/v1/?um=constructor%3A2f08d4818a67ae5c4000932882524ff0c1090242e5b0f6b1f1414b7ff4a74791&amp;source=constructor"
