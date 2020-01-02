@@ -3,19 +3,15 @@ const templateMain = `
   <!-- menu -->
   <div class="menu">
     <div class="menu-container">
-      <div class="row">
+      <div class="row end-xs">
 
-        <div class="col-md-2 col-sm-3 col-xs-4">
+        <div class="col-md-2 col-sm-3 col-xs-6">
           <a href="#about">
             <img src="./public/images/logo/svg/logo.web.svg" alt="logo" class="menu__logo-d">
-            <img src="./public/images/logo/svg/logo-symbol.web.svg" alt="logo" class="menu__logo-m">
           </a>
         </div>
 
-        <div class="col-md col-sm-6 col-xs-2 end-sx text--center">
-          <button class="navigation__toggle i-menu">
-          </button>
-
+        <div class="col-md col-sm-6 end-sx text--center">
           <nav class="menu__navigation">
             {% data.menu.forEach(i => { %}
               <div class="navigation__item">
@@ -25,10 +21,10 @@ const templateMain = `
           </nav>
         </div>
 
-        <div class="col-md-2 col-sm-3 col-xs-6 center-xs text--left menu__contacts contacts" >
+        <div class="col-md-2 col-sm-3 col-xs-6 text--left menu__contacts contacts" >
 
           <div class="contact-container contact__phone">
-            <span class="icon phone "></span>
+            <span class="icon phone"></span>
             <span>
               <a href="tel:{{ data.phone }}" class="text--nowrap">
                 <span class="text--size-mb text--color-4">{{ data.phoneFormat.substr(0,6) }}</span>
@@ -163,7 +159,7 @@ const templateMain = `
       <br>
       <ul class="row projects__list">
         {% data.projects.content.forEach(i => { %}
-        <li class="col-md-4 col-sm-6 col-xs-6">
+        <li class="col-md-4 col-sm-6 col-xs-12">
           <figure class="photo-container">
             <img src="{{ i.img }}" alt="logo supplier" class="photo-project">
           </figure>

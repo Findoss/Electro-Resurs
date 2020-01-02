@@ -21,13 +21,8 @@
   border-bottom: 2px solid var(--color3);
 }
 
-.menu__logo-d,
-.menu__logo-m {
+.menu__logo-d {
   height: 44px;
-}
-
-.menu__logo-m {
-  display: none;
 }
 
 .menu__navigation {
@@ -72,18 +67,6 @@
 }
 
 @media only screen and (max-width: 48em) {
-  .menu .row > div:nth-child(1) {
-    order: 1;
-  }
-
-  .menu .row > div:nth-child(2) {
-    order: 3;
-  }
-
-  .menu .row > div:nth-child(3) {
-    order: 2;
-  }
-
   .menu__navigation {
     display: none;
   }
@@ -94,13 +77,6 @@
 
   .menu__contacts * {
     font-size: 1rem !important;
-  }
-  .menu__logo-d {
-    display: none;
-  }
-
-  .menu__logo-m {
-    display: block;
   }
 }
 
