@@ -8,13 +8,14 @@
       name="description"
       content="ООО «ЭлектроРесурс» собирает электрощиты с 2007 года на собственном производстве в Санкт-Петербурге."
     />
-    <link
-      rel="icon"
-      type="image/png"
-      href="./public/images/logo/png/favicon.png"
+    <meta
+      name="Keywords"
+      content="сборка электрощитов, производство электрощитов"
     />
+    <meta name="yandex-verification" content="8a63c125da764cd1" />
+    <link rel="icon" type="image/png" href="./public/images/favicon.ico" />
     <link rel="stylesheet" href="./public/bundle.css" />
-    <title>Электро Ресурс</title>
+    <title>Электро Ресурс - производство электрощитов</title>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
       (function(m, e, t, r, i, k, a) {
@@ -55,8 +56,10 @@
     <!-- /Yandex.Metrika counter -->
   </head>
   <body>
-    <div id="app">
-  <div id="about"></div>
+    <div itemscope itemtype="http://schema.org/Organization" id="app">
+  <div itemprop="name" id="about">
+    OOO «ЭлектроРесурс»
+  </div>
   <!-- menu -->
   <div class="menu">
     <div class="menu-container">
@@ -442,7 +445,7 @@
             <h3 class="advantage-title text--bold">2</h3>
             <span class="advantage-postfix">года</span>
             <br>
-            <span class="advantage-caption text--size-m">Гарантия на всё обррудование</span>
+            <span class="advantage-caption text--size-m">2 года гарантии на всё обррудование</span>
           </li>
         
       </ul>
@@ -576,7 +579,11 @@
               Электронная почта
             </span>
             <br>
-            <a href="mailto:elresurs@mail.ru" class="text--size-xl text--nowrap ">
+            <a 
+              itemprop="email"
+              href="mailto:elresurs@mail.ru" 
+              class="text--size-xl text--nowrap"
+            >
               elresurs@mail.ru
             </a>
           </span>
@@ -589,9 +596,10 @@
               Телефон
             </span>
             <br>
-            <a href="tel:88123725018" class="text--nowrap">
-              <span class="text--size-l text--color-4">8(812)</span>
-              <span class="text--size-xl text--bold phone">372-50-18</span>
+            <a  href="tel:88123725018" class="text--nowrap">
+              <span itemprop="telephone" class="text--size-xl text--bold phone">
+                8(812)372-50-18
+              </span>
             </a>
           </span>
         </div>
@@ -614,8 +622,26 @@
               Адресс производства
             </span>
             <br>
-            <a href="http://yandex.ru/maps/-/CGhJzX-4" rel="noreferrer" target="_blank">
-              <span class="text--size-l">Санкт-Петербург, Петергофское ш., 75 <br> территория завода «СИГНАЛ»</span>
+            <a 
+              itemprop="address" 
+              itemscope 
+              itemtype="http://schema.org/PostalAddress" 
+              href="http://yandex.ru/maps/-/CGhJzX-4" 
+              rel="noreferrer" 
+              target="_blank"
+            >
+              <span itemprop="postalCode" class="text--size-l">
+                198206,
+              </span>
+              <span itemprop="addressLocality" class="text--size-l">
+                Санкт-Петербург
+              </span>
+              <span itemprop="streetAddress" class="text--size-l">
+                Петергофское ш., 75
+              </span>
+              <span class="text--size-l">
+                <br> территория завода «СИГНАЛ»
+              </span>
             </a>
           </span>
         </div>
