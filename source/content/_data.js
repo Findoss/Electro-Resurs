@@ -1,4 +1,5 @@
 const DATA = {
+  title: "OOO «ЭлектроРесурс»",
   mailLabel: "Электронная почта",
   mail: "elresurs@mail.ru",
 
@@ -10,8 +11,10 @@ const DATA = {
   accessTime: "Пн-Пт с 9:00 до 17:00",
   addressLabel: "Адресс производства",
 
-  address:
-    "Санкт-Петербург, Петергофское ш., 75 <br> территория завода «СИГНАЛ»",
+  addressLocality: "Санкт-Петербург",
+  postalCode: "198206",
+  streetAddress: "Петергофское ш., 75",
+  address: "<br> территория завода «СИГНАЛ»",
   mapLink: "http://yandex.ru/maps/-/CGhJzX-4",
 
   signature:
@@ -41,7 +44,7 @@ const DATA = {
       {
         title: "2",
         postfix: "года",
-        caption: "Гарантия на всё обррудование"
+        caption: "2 года гарантии на всё обррудование"
       }
     ]
   },
