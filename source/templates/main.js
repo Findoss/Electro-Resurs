@@ -199,9 +199,7 @@ const templateMain = `
               {{ data.mailLabel }}
             </span>
             <br>
-            <a 
-              itemprop="email"
-              href="mailto:{{ data.mail }}" 
+            <a itemprop="email" href="mailto:{{ data.mail }}" 
               class="text--size-xl text--nowrap"
             >
               {{ data.mail }}
@@ -251,8 +249,8 @@ const templateMain = `
               target="_blank"
             >
               <span itemprop="postalCode" class="text--size-l">
-                {{ data.postalCode }},
-              </span>
+                {{ data.postalCode }}
+              </span>,
               <span itemprop="addressLocality" class="text--size-l">
                 {{ data.addressLocality }}
               </span>
