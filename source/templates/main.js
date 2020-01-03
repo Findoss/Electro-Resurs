@@ -1,5 +1,7 @@
 const templateMain = `
-  <div id="about"></div>
+  <div itemprop="name" id="about">
+    {{ data.title }}
+  </div>
   <!-- menu -->
   <div class="menu">
     <div class="menu-container">
@@ -197,7 +199,11 @@ const templateMain = `
               {{ data.mailLabel }}
             </span>
             <br>
-            <a href="mailto:{{ data.mail }}" class="text--size-xl text--nowrap ">
+            <a 
+              itemprop="email"
+              href="mailto:{{ data.mail }}" 
+              class="text--size-xl text--nowrap"
+            >
               {{ data.mail }}
             </a>
           </span>
@@ -210,9 +216,10 @@ const templateMain = `
               {{ data.phoneLabel }}
             </span>
             <br>
-            <a href="tel:{{ data.phone }}" class="text--nowrap">
-              <span class="text--size-l text--color-4">{{ data.phoneFormat.substr(0,6) }}</span>
-              <span class="text--size-xl text--bold phone">{{ data.phoneFormat.substr(6) }}</span>
+            <a  href="tel:{{ data.phone }}" class="text--nowrap">
+              <span itemprop="telephone" class="text--size-xl text--bold phone">
+                {{ data.phoneFormat }}
+              </span>
             </a>
           </span>
         </div>
@@ -235,8 +242,26 @@ const templateMain = `
               {{ data.addressLabel }}
             </span>
             <br>
-            <a href="{{ data.mapLink }}" rel="noreferrer" target="_blank">
-              <span class="text--size-l">{{ data.address }}</span>
+            <a 
+              itemprop="address" 
+              itemscope 
+              itemtype="http://schema.org/PostalAddress" 
+              href="{{ data.mapLink }}" 
+              rel="noreferrer" 
+              target="_blank"
+            >
+              <span itemprop="postalCode" class="text--size-l">
+                {{ data.postalCode }},
+              </span>
+              <span itemprop="addressLocality" class="text--size-l">
+                {{ data.addressLocality }}
+              </span>
+              <span itemprop="streetAddress" class="text--size-l">
+                {{ data.streetAddress }}
+              </span>
+              <span class="text--size-l">
+                {{ data.address }}
+              </span>
             </a>
           </span>
         </div>
