@@ -23,7 +23,7 @@ const DATA = {
   menu: [
     { title: "Производство электрощитов", link: "el-panels" },
     { title: "Готовые объекты", link: "projects" },
-    { title: "Адресс и Контакты", link: "contacts" }
+    { title: "Адрес и Контакты", link: "contacts" }
   ],
 
   advantages: {
@@ -200,7 +200,7 @@ const DATA = {
       },
       {
         title: "Шкаф распределительный",
-        abbr: ["ШР", "ПР", "РШЗА", "РТЗО", "ЩО-70"]
+        abbr: ["ШР", "ПР", "РШЗА", "РТЗО"]
       },
       {
         title: "Шкаф автоматики",
