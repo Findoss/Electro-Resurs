@@ -94,7 +94,7 @@ const DATA = {
       },
       {
         title: "Магистраль северной столицы (ЗСД)",
-        img: "./public/images/projects/min/zsd.jpg"
+        img: "./public/images/projects/min/zsd2.jpg"
       }
     ],
     content2: [
