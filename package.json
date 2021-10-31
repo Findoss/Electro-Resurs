@@ -1,6 +1,6 @@
 {
   "name": "elektro-resurs",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "ООО «ЭлектроРесурс» собирает электрощиты с 2007 года на собственном производстве в Санкт-Петербурге.",
   "scripts": {
     "css:concat": "concat -o public/prebundle.css source/styles/reset.css source/styles/flexboxgrid.css source/styles/index.css source/styles/menu.css source/styles/about.css source/styles/el-panels.css source/styles/offer.css source/styles/supplier.css source/styles/projects.css source/styles/advantages.css source/styles/contacts.css",
