@@ -2,10 +2,9 @@
   "name": "elektro-resurs",
   "version": "1.0.17",
   "description": "ООО «ЭлектроРесурс» собирает электрощиты с 2007 года на собственном производстве в Санкт-Петербурге.",
-  "main": "index.js",
   "scripts": {
     "css:concat": "concat -o public/prebundle.css source/styles/reset.css source/styles/flexboxgrid.css source/styles/index.css source/styles/menu.css source/styles/about.css source/styles/el-panels.css source/styles/offer.css source/styles/supplier.css source/styles/projects.css source/styles/advantages.css source/styles/contacts.css",
-    "css:uglify": "postcss -u cssnano --cssnano.preset 'advanced' public/prebundle.css > public/bundle.css --no-map",
+    "css:uglify": "postcss -u cssnano --cssnano.preset 'advanced' public/prebundle.css > public/bundle.css",
     "css:bundle": "npm run css:concat && npm run css:uglify && rm public/prebundle.css",
     "clear:public": "rm -f public/bundle.css && rm -f public/index.html",
     "build": "npm run css:bundle && node source/render-server.js",
@@ -23,10 +22,11 @@
   },
   "homepage": "https://github.com/Findoss/Elektro-Resurs#readme",
   "devDependencies": {
-    "save-svg-as-png": "^1.4.14",
     "concat": "^1.0.3",
-    "cssnano": "^3.10.0",
-    "cssnano-preset-advanced": "^4.0.7",
-    "postcss-cli": "^5.0.1"
+    "cssnano": "^5.0.8",
+    "cssnano-preset-advanced": "^5.1.4",
+    "postcss": "^8.3.11",
+    "postcss-cli": "^9.0.1",
+    "save-svg-as-png": "^1.4.14"
   }
 }
